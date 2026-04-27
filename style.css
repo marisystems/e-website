@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383737;
+    flex: 1;
+}
+
+.container img {
+    flex-grow: 0;
+}
+
+.container p {
+    display: none;
+}
+
+.box {
+    display: flex;
+}
+
+.num {
+    align-self: flex-end;
+    width: 180px;
+    max-height: 180px;
+    font-size: 5rem;
+    margin-bottom: -15px;
+}
