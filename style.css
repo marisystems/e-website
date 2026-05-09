@@ -31,9 +31,9 @@ body {
 }
 
 .num {
+    position: relative;
+    left: -20px;
+    top: 15px;
     align-self: flex-end;
-    width: 180px;
-    max-height: 180px;
     font-size: 5rem;
-    margin-bottom: -15px;
 }
